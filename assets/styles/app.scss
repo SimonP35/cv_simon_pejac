@@ -1,0 +1,13 @@
+@import './components/black-component';
+@import './components/light-component';
+@import './variables/colors';
+@import '~bootstrap';
+
+body {
+    background-color: lightgrey;
+}
+
+.aside-collapsed {
+    padding: 0 15px;
+    width: auto;
+}
